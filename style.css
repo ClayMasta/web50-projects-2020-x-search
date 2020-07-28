@@ -1,0 +1,132 @@
+.top-bar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 60px;
+    font-size: 14px;
+    height: 60px;
+    width: 100%;
+}
+
+.bottom-bar {
+    font-size: 14px;
+    background-color:rgb(240, 240, 240); 
+    position: absolute; 
+    bottom: 0px; 
+    width: 100%; 
+    height: 42px;
+    line-height: 42px;
+}
+
+.link {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+}
+.link:hover {
+    color: black;
+}
+
+.google-logo {
+    display: block;
+    margin-top: 138px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 272px;
+}
+
+.top-bar-logo {
+    position: absolute;
+    top: 15.5px;
+    left: 15px;
+    display: block;
+    height: 31px;
+}
+
+.search-bar {
+    text-align: center;
+    display: block;
+    margin-top: 27px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 584px;
+}
+
+.search-button {
+    position: absolute;
+    top: 319px;
+    left: 62.4%;
+    border-width: 0px;
+    width: 35px;
+    height: 43px;
+    background-image: url("pics/searchicon.png");
+    background-size: 40px 40px;
+}
+
+.search-button:focus {
+    outline:0;
+}
+
+.advanced-search {
+    margin-left: 45px;
+    line-height: 73px;
+    font-size: 20.5px;
+    color: rgb(218, 0, 0);
+    height: 73px;
+}
+
+.subtitle {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    margin-left: 45px;
+    font-size: 16px;
+}
+
+.advanced-input {
+    width: 569px;
+}
+
+.advanced-input-small {
+    width: 260px;
+}
+
+.row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.line , .line-box, .line-after, .line-box-small1, .line-box-small2, .line-middle {
+    font-size: 13px;
+    margin-left: 60px;
+    float: left;
+}
+
+.line-box {
+    position: absolute;
+    left: 170px;
+}
+
+.line-box-small1 {
+    position: absolute;
+    left: 170px;
+}
+
+.line-box-small2 {
+
+    position: absolute;
+    left: 479px;
+}
+
+.line-middle {
+    position: absolute;
+    left: 448px;
+}
+
+.line-after {
+    position: absolute;
+    left: 752px;
+}
+
+hr {
+    padding: 0px;
+    margin: 0px;
+}
